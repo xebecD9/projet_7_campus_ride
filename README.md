@@ -1,6 +1,6 @@
 # Campus Ride - Frontend
 
-Le frontend de l'application **Campus Ride** est une plateforme moderne et épurée de covoiturage conçue pour les étudiants de l'ENSPM à l'Université de Maroua. Elle permet de mettre en relation les conducteurs (qui proposent des trajets) et les passagers (qui recherchent et réservent des places) afin de réduire les coûts et de faciliter les déplacements vers le campus.
+Le frontend de l'application **Campus Ride** est une plateforme moderne et épurée de covoiturage conçue pour les étudiants de l'ENSPM à l'Université de Maroua. Elle permet de mettre en relation les conducteurs (qui proposent des trajets) et les passagers (qui recherchent et réservent des places) afin de réduire les coûts et de faciliter les déplacements vers les differents site du campus.
 
 ## Fonctionnalités Principales
 - **Redesign complet :** Une interface utilisateur élégante inspirée de l'esthétique épurée d'Airbnb, habillée d'un thème violet et d'un arrière-plan Clio en plein écran.
