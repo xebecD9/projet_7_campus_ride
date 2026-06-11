@@ -1,0 +1,17 @@
+{
+  "name": "projet_7_campus_ride",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "build:frontend": "npm run build -w frontend",
+    "build": "npm run build -w frontend",
+    "start:backend": "npm start -w backend",
+    "start:frontend": "npm run dev -w frontend",
+    "dev:backend": "npm run dev -w backend"
+  }
+}
