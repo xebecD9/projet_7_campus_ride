@@ -13,6 +13,7 @@ Le frontend de l'application **Campus Ride** est une plateforme moderne et épur
 Ce projet a été développé par :
 - **Aman saly**
 - **Yanoussa**
+- **Essame joseph Archange**
 
 ## Lancement du Projet
 
