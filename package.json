@@ -12,6 +12,10 @@
     "build": "npm run build -w frontend",
     "start:backend": "npm start -w backend",
     "start:frontend": "npm run dev -w frontend",
-    "dev:backend": "npm run dev -w backend"
+    "dev:backend": "npm run dev -w backend",
+    "dev": "concurrently \"npm run start:frontend\" \"npm run dev:backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.3"
   }
 }
