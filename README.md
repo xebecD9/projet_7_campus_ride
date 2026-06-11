@@ -35,16 +35,7 @@ Le projet est organisé sous forme de monorepo avec deux parties principales :
   - `POST /api/rides/:id/book` : Réserver une place sur un trajet existant.
   - `GET /api/health` : Vérifier l'état de l'API.
 
----
 
-## 👥 Contributeurs
-
-Ce projet a été développé par :
-- **Aman saly**
-- **Yanoussa**
-- **Essame joseph Archange**
-
----
 
 ## 🚀 Guide de Démarrage Rapide
 
