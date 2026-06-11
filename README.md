@@ -8,8 +8,8 @@
 
 Le projet est organisé sous forme de monorepo avec deux parties principales :
 
-- **[backend/](file:///c:/Users/HP/Desktop/Nouveau%20dossier%20(2)/merged_project/backend)** : API REST construite avec Node.js, Express et MongoDB.
-- **[frontend/](file:///c:/Users/HP/Desktop/Nouveau%20dossier%20(2)/merged_project/frontend)** : Application web moderne construite avec React, Vite et CSS personnalisé.
+- **[backend/](file:///c:/Users/HP/Desktop/Nouveau%20dossier%20(2)/backend)** : API REST construite avec Node.js, Express et MongoDB.
+- **[frontend/](file:///c:/Users/HP/Desktop/Nouveau%20dossier%20(2)/frontend)** : Application web moderne construite avec React, Vite et CSS personnalisé.
 
 ---
 
@@ -23,8 +23,12 @@ Le projet est organisé sous forme de monorepo avec deux parties principales :
 - **Validation anti-chevauchement :** Système pour empêcher les réservations et les publications en doublon ou en conflit sur la même période horaire.
 
 ### ⚙️ Backend (API REST & Base de données)
-- **Base de données MongoDB Atlas :** Persistence des trajets et des réservations avec Mongoose.
-- **API REST robuste :**
+- **Serveur Express & Node.js :** Architecture serveur robuste, structurée avec des routes, des contrôleurs et des modèles clairs pour assurer une excellente modularité.
+- **Base de données MongoDB Atlas :** Intégration complète avec MongoDB Atlas via Mongoose pour stocker, structurer et requêter les trajets et les réservations en temps réel.
+- **Gestion Atomique des Réservations :** Utilisation des opérations atomiques de MongoDB (`findOneAndUpdate` avec `$inc` et `$push`) pour garantir la synchronisation en temps réel et éviter les réservations en doublon ou la surréservation (overbooking).
+- **Recherche & Filtrage Multicritère :** Recherche performante côté serveur pour filtrer les trajets par point d'origine ou de destination à l'aide d'expressions régulières (Regex) insensibles à la casse.
+- **Sécurité et Configuration (.env) :** Isolation complète des informations sensibles (URI de connexion à la base de données, port de démarrage) par variables d'environnement.
+- **Points de Terminaison (API REST) :**
   - `GET /api/rides` : Récupérer tous les trajets disponibles.
   - `GET /api/rides/:id` : Récupérer les détails d'un trajet spécifique.
   - `POST /api/rides` : Créer/publier un nouveau trajet.
