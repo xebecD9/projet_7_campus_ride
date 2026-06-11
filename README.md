@@ -38,7 +38,9 @@ Le projet est organisé sous forme de monorepo avec deux parties principales :
 Ce projet a été développé par :
 - **Aman saly**
 - **Yanoussa**
-- **Essame joseph Archange**
+- **EssameArchange **
+- **Tchinkou rick**
+- **Aminatou falama**
 
 ---
 
